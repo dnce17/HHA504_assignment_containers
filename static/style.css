@@ -1,0 +1,463 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: "Livvic", sans-serif;
+}
+
+header {
+    background-color: black;
+    padding: 1rem 0;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1 {
+    margin: 0;
+}
+
+.ctnr {
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.category {
+    font-weight: bold;
+    color: black;
+}
+
+.btn {
+    font-family: "Livvic", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    background-color: #e4a101;
+    color: #964B00;;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 100px;
+    text-decoration: none;
+
+    /* Prevents anchor tag from ignoring margin-top */
+    display: inline-block;
+}
+
+.navbar {
+    text-align: center;
+}
+
+.nav__toggle {
+    margin-top: 0.4rem;
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    left: 2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.nav {
+    display: none;
+}
+
+.nav__list, .nav__items {
+    margin: 0;
+}
+
+.nav__item {
+    margin-top: 0.5rem;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: white;
+}
+
+.hero {
+    background-image: url("img/pkmn-md-banner.png");
+    background-size: cover;
+    background-position: center center;
+    padding-bottom: 4rem;
+}
+
+.pmd-logo {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    padding-top: 1rem;
+}
+
+.hero__title {
+    padding-top: 4rem;
+    font-size: 2.5rem;
+    color: rgba(255, 234, 3, 0.7);
+    text-shadow: 2px 1px 7px #964B00, 2px 1px 7px #964B00;
+}
+
+.hero__text {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.games {
+    background-image: url("img/bg-patterns/bg-pattern-rigidtan.png");
+    padding: 3rem 0;   
+}
+
+.games__title {
+    text-align: center;
+}
+
+.games__info {
+    padding-bottom: 1.5rem;
+    background-color: white;
+    box-shadow: 0px 0px 35px -10px #964B00;
+    width: 100%;
+    max-width: 460px;
+    margin: 1.5rem auto 0 auto;
+}
+
+.games__info-text {
+    margin: 0;
+}
+
+.games__info-item {
+    margin-top: 0.5rem;
+    color: #6C6C6C;
+}
+
+.games__info-brand {
+    background-color: #92765e;
+    width: fit-content;
+    padding: 0.5rem;
+    color: white;
+}
+
+.games__info-version {
+    width: fit-content;
+    color: white;
+    padding: 0.5rem;
+}
+
+.games__info-category {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.games__info-version--red, .games__info-version--darkness {
+    background-color: red;
+}
+
+.games__info-version--blue {
+    background-color: blue;
+}
+
+.games__info-version--time, .games__info-version--gti {
+    background-color: rgb(0, 200, 246);
+}
+
+.games__info-version--sky {
+    background-color: rgb(53, 211, 53);
+}
+
+.games__info-version--super {
+    background-image: url("img/bg-patterns/psmd-bg.png");
+    background-position: center center;
+}
+
+.games__info-version--dx {
+    background-image: url("img/bg-patterns/dx-bg.png");
+    background-position: center center;
+}
+
+.games__released {
+    text-align: center;
+}
+
+.games__released-selection {
+    text-align: center;
+    position: relative;
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+.games__released-name {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    image-rendering: pixelated;
+}
+
+.games__released-btn {
+    margin-top: 1rem;
+    color: white;
+    cursor: pointer;
+}
+
+.pmd-info {
+    /* background-color: rgb(232, 207, 122); */
+    padding: 2rem 0;
+    background-image: url("img/bg-patterns/bg-pattern-lightgreen.png");
+}
+
+.pmd-info__item + .pmd-info__item, .pmd-info__text {
+    margin-top: 1rem;
+}
+
+.footer {
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+.footer__social-medias {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5em;
+    height: 2.5em;
+    background-color: rgb(172, 122, 62);
+    border-radius: 100px;
+    text-decoration: none;
+}
+
+.icon + .icon {
+    margin-left: 0.5rem;
+}
+
+.fa-brands {
+    font-size: 1.3em;
+    color: rgb(236, 215, 160);
+}
+
+.footer__img {
+    display: block;
+    padding-top: 1.5rem;
+    margin: 0 auto;
+}
+
+.footer__games {
+    padding-top: 1.5rem;
+}
+
+.footer__link {
+    color: #49361f;
+    text-decoration: none;
+}
+
+.footer__item + .footer__item {
+    margin-top: 0.5rem;
+}
+
+.copyright-text {
+    margin-top: 2rem;
+    font-size: 0.75rem;
+}
+
+.not-first-child {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+/* Note to self: ORDER matters! Putting the below before .nav results in toggle not working */
+.visible-inline-block {
+    display: inline-block;
+}
+
+.nav__link:hover {
+    color: gray;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
+
+.btn:hover {
+    background-color: #ecba45;
+}
+
+.games__released-selection:hover {
+    outline-color: rgb(172, 122, 62);
+    outline-style: dashed;
+    cursor: pointer;
+}
+
+.footer__link:hover {
+    text-decoration: underline;
+}
+
+
+
+@media (min-width: 800px) {
+    .hero {
+        padding-bottom: 6rem;
+    }
+
+    .hero__title {
+        max-width: 650px;
+        font-size: 3rem;
+        padding-top: 6rem;
+    }
+    
+    .hero__text {
+        font-size: 1.5rem;
+    }
+
+    .games__title {
+        font-size: 2rem;
+    }
+
+    .games__info {
+        display: flex;
+        max-width: 850px;
+        padding: 0;
+    }
+
+    .games__info-img {
+        width: 45%;
+        min-height: 418px;
+    }
+
+    .games__info-text {
+        width: 55%;
+        padding-bottom: 1rem;
+
+        /* Added to prevent category info from moving when switching b/w games */
+        display: grid;
+        grid-template-rows: 42% auto;
+    }
+
+    .games__info-item--spacing {
+        padding-left: 0;
+    }
+
+    .games__info-category {
+        width: 80%;
+    }
+
+    .games__info-paragraph {
+        max-width: 400px;
+    }
+
+    .games__released-ctnr {
+        display: inline-grid;
+        grid-template-columns: auto auto;
+        grid-gap: 1rem;
+    }
+
+    .games__released-selection:nth-child(2) {
+        display: block;
+    }
+
+    .games__released-btn {
+        display: block;
+        margin: 0 auto;
+        margin-top: 1rem;
+    }
+
+    .pmd-info__item {
+        /* Adding this allow flex-items to be same width */
+        width: 100%;
+    }
+
+    .pmd-info__item + .pmd-info__item {
+        margin-top: 0;
+        margin-left: 2rem;
+    }
+
+    .footer__logos {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer__social-medias {
+        padding-top: 1.5rem;
+    }
+
+    .footer__list-ctnr {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer__list {
+        text-align: left;
+    }
+
+    .footer__list--right {
+        margin-left: 3rem;
+    }
+
+    .flex {
+        display: flex;
+    }
+}
+
+
+
+@media (min-width: 1150px) {
+    .nav__toggle {
+        display: none;
+    }
+
+    .navbar {
+        display: flex;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: flex-end;
+
+        /* Will be as 100% as it can, which allow flex-end to work */
+        width: 100%;
+    }
+
+    .nav__list {
+        display: flex;
+    }
+
+    .nav__item + .nav__item {
+        margin-left: 2rem;
+    }
+
+    .hero {
+        padding-bottom: 8rem;
+    }
+
+    .hero__title {
+        font-size: 3.5rem;
+        max-width: 750px;
+        padding-top: 8rem;
+    }
+
+    .games__released-ctnr {
+        grid-template-columns: auto auto auto;
+    }
+
+    .games__released-selection:nth-child(3) {
+        display: block;
+    }
+}

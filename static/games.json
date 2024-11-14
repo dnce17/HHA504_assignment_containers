@@ -1,0 +1,68 @@
+[
+    {
+        "title": "PMD Rescue Team Red and Blue",
+        "imgSrc": "img/game-main-display/pmd-red-blue.png",
+        "imgSelection": "img/game-selections/pmd-red-blue-selection.png",
+        "versions": ["Red Rescue Team", "Blue Rescue Team"],
+        "colors": ["red", "blue"],
+        "releaseYrs": "2005, 2006, 2016 (for Wii U VC)",
+        "consoles": "GBA (Red Rescue Team), DS (Blue Rescue Team), Wii U VC",
+        "text": "In a world devastated by many recent natural disasters, form a rescue team and find a solution to the catastrophes.",
+        "moreInfo": "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Mystery_Dungeon:_Red_Rescue_Team_and_Blue_Rescue_Team"
+    },
+    {
+        "title": "PMD Explorers of Time and Darkness",
+        "imgSrc": "img/game-main-display/pmd-time-darkness.png",
+        "imgSelection": "img/game-selections/pmd-time-darkness-selection.png",
+        "versions": ["Explorers of Time", "Explorers of Darkness"],
+        "colors": ["time", "darkness"],
+        "releaseYrs": "2007, 2008",
+        "consoles": "DS",
+        "text": "Form an expedition team and uncover the secrets behind distortions and time and space itself!",
+        "moreInfo": "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Mystery_Dungeon:_Explorers_of_Time_and_Explorers_of_Darkness"
+    },
+    {
+        "title": "PMD Explorers of Sky",
+        "imgSrc": "img/game-main-display/pmd-sky.png",
+        "imgSelection": "img/game-selections/pmd-sky-selection.png",
+        "versions": ["Explorers of Sky"],
+        "colors": ["sky"],
+        "releaseYrs": "2009",
+        "consoles": "DS",
+        "text": "The definitive version of PMD Explorers of Time and Darkness. Take to the skies and experience new stories and dungeons while unraveling the mysteries behind the distortion of time and space.",
+        "moreInfo": "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Mystery_Dungeon:_Explorers_of_Sky"
+    },
+    {
+        "title": "PMD Gates to Infinity",
+        "imgSrc": "img/game-main-display/pmd-gti.png",
+        "imgSelection": "img/game-selections/pmd-gti-selection.png",
+        "versions": ["Gates to Infinity"],
+        "colors": ["gti"],
+        "releaseYrs": "2012, 2013",
+        "consoles": "3DS",
+        "text": "(PLACEHOLDER: I did not play this game yet, so I don't want to spoil myself by researching this game XD. Please forgive me.)",
+        "moreInfo": "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Mystery_Dungeon:_Gates_to_Infinity"
+    },
+    {
+        "title": "Pokemon Super Mystery Dungeon",
+        "imgSrc": "img/game-main-display/psmd.png",
+        "imgSelection": "img/game-selections/psmd-selection.png",
+        "versions": ["Pokemon Super Mystery Dungeon"],
+        "colors": ["super"],
+        "releaseYrs": "2015, 2016",
+        "consoles": "3DS",
+        "text": "Make haste as a disaster is beginning to envelop the world! Strategize to beat tough enemies and connect with all 720 species of Pokémon!",
+        "moreInfo": "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Super_Mystery_Dungeon"
+    },
+    {
+        "title": "Pokemon Mystery Dungeon Rescue Team DX",
+        "imgSrc": "img/game-main-display/pmd-dx.png",
+        "imgSelection": "img/game-selections/pmd-dx-selection.png",
+        "versions": ["Rescue Team DX"],
+        "colors": ["dx"],
+        "releaseYrs": "2020",
+        "consoles": "Switch",
+        "text": "A remake of PMD Red and Blue Rescue Team. Experience the very first PMD game in all its modernized glory with new features and a stunning new art style.",
+        "moreInfo": "https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Mystery_Dungeon:_Rescue_Team_DX"
+    }
+]
