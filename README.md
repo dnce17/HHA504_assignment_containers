@@ -15,7 +15,7 @@
     * docker build --platform linux/amd64 -t prac-docker:v1
     * docker run -p 5000:5000 prac-docker:v1
     * docker tag prac-docker:v1 dnce17/prac-docker:v1
-    * docker push prac-docker:v1
+    * docker push dnce17/prac-docker:v1
 4. The Docker image should now be in Docker
     
 ## 2. Deploy to GCP Cloud Run
