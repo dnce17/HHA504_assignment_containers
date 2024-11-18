@@ -1,15 +1,25 @@
 # Docker + Deploying and Managing Containers with GCP Cloud Run and Azure Container Apps
 
 ## Link to Applications
-1. GCP Cloud Run
-    * https://flask-pkmn-md-site-1057035447975.us-central1.run.app
-2. Azure 
-    * https://flask-pkmn-md-site.greentree-09dfd09f.centralus.azurecontainerapps.io/
+### GCP Cloud Run
+1. Crochet Shop Website: https://crochet-shop-website-1057035447975.us-central1.run.app
+    * The links in the navigation bar works and goes to their respective pages
+2. Pokemon Mystery Dungeon Website: https://flask-pkmn-md-site-1057035447975.us-central1.run.app
+    * The "Learn More" button works and goes to the games' respective [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Main_Page) pages
+
+### Azure 
+1. Crochet Shop Website: https://crochet-shop-website.greentree-09dfd09f.centralus.azurecontainerapps.io/
+2. Pokemon Mystery Dungeon Website: https://flask-pkmn-md-site.greentree-09dfd09f.centralus.azurecontainerapps.io/
+
+#### Notes Regarding Deployed Applications
+1. Crochet Shop Website
+    * The repo used for this was [crochet_shop_docker](https://github.com/dnce17/crochet_shop_docker). It contains files from a [crochet shop website](https://github.com/dnce17/crochet_shop_site) I made back then that was deployed at [Render.com](https://render.com/) using gevent, gunicorn, and greenlet.
+2. Pokemon Mystery Dungeon Website
+    * Files from my [Pokemon Mystery Dungeon Website](https://github.com/dnce17/pkmn_md_site) repo was used
 
 ## 1. Containerize a Simple Application
 1. Create docker repo
 2. Create a flask app in VSC
-    * NOTE: I copied over an old website I made from my [pkmn_md_site](https://github.com/dnce17/pkmn_md_site) repo
 3. In VSC terminal, ran the following cmds based on [deployment_instructions.md](https://github.com/dnce17/HHA504_assignment_containers/blob/main/deployment_instructions.md):
     * docker login -u dnce17
     * docker build --platform linux/amd64 -t prac-docker:v1
