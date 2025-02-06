@@ -11,7 +11,7 @@
 # Build
 - command structure: docker build --platform linux/amd64 -t {docker_repo_name}:{optional_version} .
     - NOTE: 
-        - Have Docker Desktop open (or else cmd will fail)
+        - Make sure Dockerfile exist + have Docker Desktop open (or else this cmd will fail)
         - Adding versions like "v1" and "v2" can help keep things organized, so it's recommended
     - e.g. `docker build --platform linux/amd64 -t 504flask:v1 .`
 
