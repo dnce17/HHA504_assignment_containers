@@ -22,7 +22,7 @@
 2. Create a flask app in VSC
 3. In VSC terminal, ran the following cmds based on [deployment_instructions.md](https://github.com/dnce17/HHA504_assignment_containers/blob/main/deployment_instructions.md):
     * docker login -u dnce17
-    * docker build --platform linux/amd64 -t prac-docker:v1
+    * docker build --platform linux/amd64 -t prac-docker:v1 .
     * docker run -p 5000:5000 prac-docker:v1
     * docker tag prac-docker:v1 dnce17/prac-docker:v1
     * docker push dnce17/prac-docker:v1
